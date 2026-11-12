@@ -1,6 +1,6 @@
 # JS-Programs
 
-let arr = [0, 2, 6, 1,3, 4, 5, 0];
+let arr = [0, 2, 6, 1,3, 4, 5, 0]; 
  let nonzeroIndex=0;
 
 for(let i=0;i<arr.length;i++){
