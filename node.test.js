@@ -293,7 +293,75 @@ console.log(sum)
   sn=sum;
 }
 
+-----------------------
+ // Balanced String
 
+let str = "{[()]}";
+
+let stack = [];
+
+let pairs = {
+    ')': '(',
+    '}': '{',
+    ']': '['
+};
+
+let isBalanced = true;
+
+for (const c of str) {
+
+    if (c === '(' || c === '{' || c === '[') {
+        stack.push(c);
+    }
+
+    else if (c === ')' || c === '}' || c === ']') {
+
+        if (stack.length === 0 || stack.pop() !== pairs[c]) {
+            isBalanced = false;
+            break;
+        }
+    }
+}
+
+if (stack.length !== 0) {
+    isBalanced = false;
+}
+
+console.log(isBalanced ? "Balanced" : "Not Balanced");
+
+-------------------
+
+ let arr = [10, 20, 30, 40, 50, 60, 70];
+
+let target = 50;
+
+let start = 0;
+let end = arr.length - 1;
+
+let found = false;
+
+while (start <= end) {
+
+    let mid = Math.floor((start + end) / 2);
+
+    if (arr[mid] === target) {
+        console.log("Element found at index: " + mid);
+        found = true;
+        break;
+    }
+
+    else if (arr[mid] < target) {
+        start = mid + 1;
+    }
+
+    else {
+        end = mid - 1;
+    }
+}
+
+if (!found) {
+    console.log("Element not found");
+}
 
 
 
