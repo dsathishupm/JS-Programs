@@ -238,6 +238,74 @@ for( const c of str){
 
 --------------
  
+ let str="HelloWorld"
+ // count char
+//
+const countmap=new Map();
+let count={}
+for( const c of str){
+   count[c]=(count[c] || 0)+1;
+  countmap.set(c, (countmap.get(c) || 0 )+1)
+}
+
+console.log(count)
+console.log(countmap)
+
+-----------------------------------------------
+
+let num = 1001;
+//odd even
+if(num % 2==0)
+  console.log("even number")
+
+----------------------
+ let num = [1,2,3,4,56,6,4,56,22,45,2,57,343,333];
+//sum of two
+
+let map=new Map();
+let nums={}
+for(let i=0;i<num.length;i++){
+  for(let j=i+1;j<num.length;j++){
+
+if(num[i]+num[j]==334){
+
+  nums[0]=(num[i])
+  nums[1]=(num[j])
+}
+
+    
+  }
+}
+
+console.log(nums)
+-------------------
+ //fibonosi
+
+let n=10;
+let fn=0;
+let sn=1;
+
+for(let i=2;i<n;i++){
+
+  let sum=fn+sn;
+console.log(sum)
+  fn=sn;
+  sn=sum;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
