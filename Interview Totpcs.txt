@@ -1,0 +1,455 @@
+Consolidated Interview Questions – Skill‑Wise Classification
+ 
+🔵 PLAYWRIGHT (JavaScript / TypeScript)
+
+Core Concepts
+ 
+Why Playwright over Selenium / Cypress?
+
+Playwright architecture vs Selenium architecture
+
+Playwright with JavaScript vs TypeScript
+
+Difference between fill() and type()
+
+What is page.click()?
+
+Default timeout in Playwright
+
+Browsers supported by Playwright
+
+What unit testing framework does Playwright use?
+ 
+Configuration (playwright.config.ts)
+ 
+What can be configured in playwright.config?
+
+How to change workers?
+
+How to override workers via command line?
+
+How to run tests in serial mode?
+
+How to implement retries?
+
+How to configure multiple environments (dev/qa/prod)?
+ 
+Parallel & Serial Execution
+ 
+How parallel execution works internally
+
+Issues faced during parallel execution
+
+How to reduce execution time for long‑running specs
+
+Why tests run locally but fail in CI/CD
+ 
+Fixtures
+ 
+What is a fixture in Playwright?
+
+Custom fixture – benefits & implementation
+
+Difference between Playwright fixture and PyTest fixture
+
+How fixtures improve test reusability
+ 
+Locators & UI Handling
+ 
+Playwright locators vs Selenium locators
+
+Role-based locators
+
+Handling dynamic elements
+
+Handling dropdowns and auto‑suggest lists
+
+Handling enabled/disabled elements
+
+Handling iframe → new tab → interaction flow
+ 
+Multi‑Page / Multi‑Window
+ 
+Click → new tab → switch → validate title
+
+Handling popups and new browser contexts
+ 
+Network & Stability
+ 
+How to mock network calls?
+
+How to validate mocked calls?
+
+Handling flaky tests
+
+Handling network failures during execution
+
+Handling stale elements (conceptually)
+ 
+Automation Coding (Playwright)
+ 
+Write login automation flow
+
+Web table pagination validation (10 rows per page)
+
+API GET / POST automation in Playwright
+
+File download automation
+
+API auth handling (token / cookie)
+
+API request chaining
+
+Status code validation (201, 204, 400, 401, 500)
+ 
+ 
+🟢 SELENIUM (Java)
+
+Architecture & Core
+ 
+Selenium architecture
+
+WebDriver vs Grid vs RemoteWebDriver
+
+How Selenium Grid works
+
+Selenium vs Playwright
+ 
+Synchronization
+ 
+Implicit wait
+
+Explicit wait
+
+Fluent wait
+
+How to resolve synchronization issues
+ 
+Locators & UI
+ 
+findElement vs findElements
+
+Handling dynamic elements
+
+Handling iframes and nested windows
+
+Switching windows and tabs
+
+Handling elements visible but not clickable
+ 
+ 
+🟡 JAVA (Core + Automation Usage)
+
+OOPS
+ 
+Encapsulation, Inheritance, Polymorphism, Abstraction
+
+OOPS usage in framework
+
+Constructor bloating & how to avoid
+
+Where OOPS is used in POM
+ 
+Collections
+ 
+List vs Set vs Map
+
+Array vs ArrayList
+
+HashMap vs Hashtable
+
+When and where Map is used in framework
+ 
+Strings & Programs
+ 
+Reverse a string (multiple ways)
+
+Count character occurrences using HashMap
+
+Palindrome check
+
+Remove duplicate characters
+
+Find missing number in array
+
+Find second largest number
+
+Find largest non‑repeating number
+
+Reverse words in a sentence
+ 
+Exceptions & Keywords
+ 
+Checked vs Unchecked exceptions
+
+try‑catch‑finally behavior
+
+throw vs throws
+
+final vs finally vs finalize
+
+Static variables – use cases
+ 
+ 
+🟣 JAVASCRIPT / TYPESCRIPT
+ 
+Promise – what & why
+
+Promise vs try‑catch
+
+async / await – why & how
+
+Can Promise and async/await be combined?
+
+Arrow function vs normal function
+
+var vs let vs const
+
+Difference between any and unknown
+
+Type vs Interface
+ 
+ 
+🔴 CUCUMBER / BDD
+
+Core BDD
+ 
+What is BDD?
+
+Feature file structure
+
+Scenario vs Scenario Outline
+
+Given / When / Then usage
+
+What happens if we start with AND?
+ 
+Execution & Control
+ 
+Run only regression tests
+
+Run specific scenarios
+
+Skip scenarios
+
+Skip entire feature file
+
+Dry run – purpose & usage
+ 
+Implementation
+ 
+Login feature file
+
+Step definition implementation
+
+Data Tables – what & why
+
+Sharing data across steps & feature files
+
+Hooks – before & after
+ 
+ 
+🔷 API TESTING (REST)
+ 
+What is API testing?
+
+REST vs SOAP
+
+REST vs API concepts
+
+Swagger / OpenAPI
+
+API lifecycle
+
+API request flow
+
+Status codes:
+ 
+200, 201, 204
+
+400, 401, 403
+
+404, 500
+ 
+ 
+Post & Delete status codes
+
+Token authentication
+
+Basic auth
+
+Schema validation
+
+Error handling
+
+API chaining
+
+RestAssured framework basics
+ 
+ 
+🟤 PYTHON (Automation & Data Testing)
+ 
+assert usage for string, numeric, data validation
+
+Limitations of assert
+
+What happens when assertion fails?
+
+Can assertions be disabled?
+
+Structuring repeated tests
+
+Libraries for data validation:
+ 
+pandas
+
+pytest
+
+unittest
+ 
+ 
+Data validation using SQL + Python
+
+Virtual environment setup
+
+ETL validation with Python
+ 
+ 
+⚫ SQL / DATABASE
+ 
+Inner vs Outer Join
+
+Cross Join
+
+Group By
+
+Where vs Having
+
+Duplicate record queries
+
+Schema validation queries
+
+Validate null values
+
+Procedure vs Function
+
+SET operators
+
+Index types
+
+SCD Type 1 & 2
+
+Data migration validation
+ 
+ 
+🔶 FRAMEWORK / DESIGN
+ 
+Explain your automation framework
+
+POM vs Page Factory
+
+Handling large POMs
+
+Hybrid framework design
+
+Data‑driven approach
+
+Test data management strategies
+
+Mock data usage
+
+Logging framework
+
+Handling common elements across pages
+ 
+ 
+🔷 CI / CD & DEVOPS
+ 
+Jenkins pipeline
+
+Jenkins + GitHub integration
+
+Running tests in CI
+
+Parallel execution in CI
+
+Analyzing Jenkins logs
+
+Why tests fail only in CI
+
+Grafana dashboards
+
+Xray + Jenkins integration
+ 
+ 
+🟠 GIT
+ 
+Git merge
+
+Git rebase
+
+Git squash
+
+Git pull vs fetch
+
+git push --force
+
+Merge conflict resolution
+
+Pull requests
+ 
+ 
+🟢 AGILE / PROCESS / TESTING PRACTICES
+ 
+Sprint activities
+
+Risk‑based testing
+
+Test planning for user stories
+
+Automation candidate identification
+
+Shift‑left testing
+
+Definition of Ready (DoR)
+
+Definition of Done (DoD)
+
+Defect lifecycle
+
+Defect severity vs priority
+
+Collaboration with BA / PO
+
+Handling last‑minute changes
+
+RCA & retrospectives
+ 
+ 
+🔵 NON‑FUNCTIONAL & OTHER
+ 
+Accessibility testing
+
+NFT testing
+
+Performance testing basics
+
+JMeter usage & reports
+
+Data testing / ETL testing
+
+Cloud experience:
+ 
+AWS
+
+Azure
+
+GCP
+ 
+ 
+AI in testing
+
+Prompt engineering basics
+
+AI chatbot testing
+ 
