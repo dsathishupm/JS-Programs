@@ -87,7 +87,18 @@ let a='';
 
   console.log(a)
 -----------------
+let letters = rev.split(' ').join('').split('').reverse().join('');
+console.log(letters)
+let revs = letters;
 
+for (let i = 0; i < rev.length; i++) {
+    if (rev[i] === ' ') {
+        revs = revs.slice(0, i) + ' ' + revs.slice(i);
+      console.log(revs.slice(0, i) + ',' + revs.slice(i)); // ramuK hsi htaS
+// insert space at original index
+    }
+}
+---------------------
  //reverse words
 
 let rev="Sathish kumar Durai"
