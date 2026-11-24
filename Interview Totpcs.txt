@@ -1,3 +1,79 @@
+18 Advanced Interview Questions & Answers for SDET → GenAI Transition
+
+1. What is the difference between Traditional Automation and GenAI Testing?
+
+Answer:
+Traditional testing validates deterministic outputs. GenAI testing validates probabilistic, contextual, and intent-based responses.
+
+2. How do you test non-deterministic outputs in LLM applications?
+
+Answer:
+Using evaluation metrics, multiple executions, semantic similarity scoring, LLM-as-a-Judge, and human evaluation.
+
+3. What are the key risks in LLM-based systems?
+
+Answer:
+Hallucinations, bias, toxicity, prompt injection, data leakage, security vulnerabilities, and lack of explainability.
+
+4. How do you perform Prompt Injection Testing?
+
+Answer:
+Use malicious prompts, role overrides, context manipulation, jailbreak attempts, and adversarial inputs to evaluate resilience.
+
+5. How do you evaluate the quality of LLM responses?
+
+Answer:
+Measure relevance, faithfulness, correctness, groundedness, coherence, completeness, and usefulness.
+
+6. What is RAG and how do you test RAG systems?
+
+Answer:
+RAG combines retrieval with generation. Testing focuses on retrieval accuracy, context precision, context recall, source attribution, and response correctness.
+
+7. Which metrics do you use for GenAI evaluation?
+
+Answer:
+Faithfulness, Hallucination Rate, Semantic Similarity, Context Recall, Context Precision, Relevance, Answer Correctness, and LLM-as-a-Judge scores.
+
+8. How do you automate testing of LLM applications?
+
+Answer:
+Using frameworks such as LangSmith, DeepEval, Promptfoo, RAGAS, Phoenix, and custom evaluation pipelines.
+
+9. How do you ensure data privacy and security in GenAI applications?
+
+Answer:
+Implement PII masking, anonymization, access controls, encryption, audit logging, and red-team testing.
+
+10. How do you handle hallucinations in LLM outputs?
+
+Answer:
+Use grounding, retrieval augmentation, citations, confidence scoring, guardrails, human review, and evaluation frameworks.
+
+11. How do you design test cases for GenAI applications?
+
+Answer:
+Focus on user intents, edge cases, adversarial prompts, ambiguity handling, multilingual scenarios, and business workflows.
+
+12. How do you integrate GenAI testing into CI/CD pipelines?
+
+Answer:
+Automate evaluations, regression testing, dataset validation, quality gates, performance checks, and reporting.
+
+13. How do you test performance and scalability in GenAI applications?
+
+Answer:
+Measure latency, throughput, concurrency, token consumption, infrastructure utilization, and cost efficiency.
+
+14. How do you test multi-turn conversations?
+
+Answer:
+Validate context retention, memory handling, follow-up reasoning, state transitions, and conversational consistency.
+
+15. What is LLM Observability and why is it important?
+
+Answer:
+Observability tracks prompts, responses, costs, latency, failures, evaluation results, and user feedback for continuous improvement.
 Consolidated Interview Questions – Skill‑Wise Classification
  
 🔵 PLAYWRIGHT (JavaScript / TypeScript)
