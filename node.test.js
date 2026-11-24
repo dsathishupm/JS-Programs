@@ -111,6 +111,17 @@ after =after+" "+splits[i];
   
 }
 console.log(after.trim())
+let rev="Sathish kumar Durai"
+let splits=rev.split(" ");
+let after=''
+
+ for(let i=splits.length-1;i>=0;i--){
+   
+after =after+" "+splits[i] .split('').reverse().join('');
+  
+}
+console.log(after)
+
 --------------
   //number is Prime
 
